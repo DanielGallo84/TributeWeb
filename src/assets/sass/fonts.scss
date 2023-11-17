@@ -1,6 +1,8 @@
+/* sancreek-regular - latin */
 @font-face {
-    font-family: 'Sancreek', serif;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Sancreek') url(./../fonts/Sancreek/Sancreek-Regular.ttf) format('ttf');
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Sancreek';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./../fonts/Sancreek/Sancreek-Regular.ttf') format('ttf'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
