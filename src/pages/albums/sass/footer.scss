@@ -1,9 +1,35 @@
+@import './../../../modules/sass/variables.scss';
+
+
 footer{
-    height: 8%;
+    height: 10%;
 }
 #footer-container{
+    position:relative;
+    display: flex;
     height: 100%;
     width: 100%;
     background-color: $deep-purple;
-   
+    justify-content: center;
+    align-items: center;
 }
+#copyright-footer{
+    text-align: center;
+    font-size: 4vh;
+    font-family: corinthia;
+    color: $gold;
+    vertical-align: middle;
+    justify-self: center;
+}
+#rrss-container{
+    display:flex;
+    position: absolute;
+    justify-items: space-between;
+    right: 3%;
+    img{
+        height:4vh;
+        margin: 1vw;
+    }
+}
+
+
