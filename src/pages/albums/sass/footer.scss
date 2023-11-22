@@ -2,8 +2,15 @@
 
 
 footer{
+    display: none;
     height: 10%;
 }
+@media only screen and (min-width:768px){
+    footer{
+        display: flex;
+        height: 10%;
+    }
+
 #footer-container{
     position:relative;
     display: flex;
@@ -32,4 +39,4 @@ footer{
     }
 }
 
-
+}
