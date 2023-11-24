@@ -1,10 +1,11 @@
 #nav-mobile {
     width: 100%;
     background-color: $light-purple;
-    height: 50vh;
-    display: flex;
+    height: 52vh;
+    display: none;
     flex-direction: column;
     align-items: center;
+    margin-left: 100%;
 }
 
 #menu-links-container-mobile {
