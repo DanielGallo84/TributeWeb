@@ -31,15 +31,20 @@ header {
     margin-top: -14%;
 }
 
-#menu-button {
+.menu-button {
     position: absolute;
-    width: 4vh;
+    width: 7vh;
+    height: 7vh;
     right: 0%;
     top: 50%;
     transform: translateY(-50%);
     margin-right: 5%;
 }
 
+.button-active {
+    background-color: $light-purple;
+}
+
 #menu-image {
-    width: 100%;
+    width: 60%;
 }

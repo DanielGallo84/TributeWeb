@@ -1,8 +1,7 @@
 import './sass/home.scss'
 import { showMobileMenu } from './modules/js/menu-button'
+import { loadHeader } from './modules/js/header'
 
-function home() {
+export function home() {
     showMobileMenu()
 }
-
-home()
