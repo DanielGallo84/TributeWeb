@@ -16,7 +16,7 @@
 }
 
 #menu-links-container-mobile {
-    padding-top: 15vh;
+    padding-top: 13vh;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -45,4 +45,10 @@
 
 .social-image {
     height: 5vh;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-mobile {
+        display: none;
+    }
 }

@@ -31,10 +31,24 @@ header {
     margin-top: -14%;
 }
 
+.links-container-desktop {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links-desktop {
+    color: $gold;
+    -webkit-text-stroke: 1px $deep-purple;
+    font-family: 'Sancreek', serif;
+    font-size: 1.5vmax;
+    display: none;
+}
+
 .menu-button {
     position: absolute;
-    width: 7vh;
-    height: 7vh;
+    width: 7vmax;
+    height: 7vmax;
     right: 0%;
     top: 50%;
     transform: translateY(-50%);
@@ -47,4 +61,23 @@ header {
 
 #menu-image {
     width: 60%;
+}
+
+@media only screen and (min-width: 768px) {
+    #header-container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #logo-container {
+        align-self: first baseline;
+    }
+    
+    .nav-links-desktop {
+        display: block;
+    }
+    
+    .menu-button {
+        display: none;
+    }
 }
