@@ -37,9 +37,9 @@
 }
 .albumPhoto{
     align-self: center;
-    height: 90%;
+    height: 16vh;
     border-radius: 5px;
-    width: 80%;
+    width: 17vh;
 }
 #gridContainerDesktop{
     display: none;
@@ -60,9 +60,8 @@
     }
     .albumPhoto{
         align-self: center;
-        height: 220px;
+        height: 32vh;
         border-radius: 10px;
         width: 200px;
     }
-
 }
