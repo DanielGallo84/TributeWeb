@@ -21,13 +21,13 @@ export function loadHeader() {
   </div>
 
   <div class="links-container-desktop">
-    <a href="/index.html">
+    <a href="#">
       <button class="nav-links-desktop">Gallery</button>
     </a>
-    <a href="/pages/albums/index.html">
+    <a href="#">
       <button class="nav-links-desktop">News</button>
     </a>
-    <a href="/pages/videos/index.html">
+    <a href="#">
       <button class="nav-links-desktop">Contact Us</button>
     </a>
   </div>
