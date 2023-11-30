@@ -5,6 +5,10 @@ header {
     z-index: 2;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header-container {
     position: relative;
     width: 100%;
@@ -31,6 +35,10 @@ header {
     margin-top: -14%;
 }
 
+#logo-egg:hover {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
 .links-container-desktop {
     display: flex;
     justify-content: space-around;
@@ -43,6 +51,16 @@ header {
     font-family: 'Sancreek', serif;
     font-size: 1.5vmax;
     display: none;
+    transition: all 0.3s;
+}
+
+.nav-links-desktop:hover {
+    transform: scale(115%);
+}
+
+.nav-links-desktop:active {
+    transform: scale(115%);
+    transform: translateY(5px);
 }
 
 .menu-button {
