@@ -35,33 +35,95 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 .albumPhoto{
     align-self: center;
     height: 16vh;
     border-radius: 5px;
     width: 17vh;
 }
+
+#album1Photo {
+    background-image: url(/images/albums/experienced.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album2Photo {
+    background-image: url(/images/albums/FirstRays.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album3Photo {
+    background-image: url(/images/albums/neptune.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album4Photo {
+    background-image: url(/images/albums/South_Saturn_Delta.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album5Photo {
+    background-image: url(/images/albums/electric.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album6Photo {
+    background-image: url(/images/albums/gipsies.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album7Photo {
+    background-image: url(/images/albums/BOLD.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#album8Photo {
+    background-image: url(/images/albums/cryoflove.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
 #gridContainerDesktop{
     display: none;
 }
 
 @media (min-width:800px) {
     #gridContainer{
-        display:none;
-    }
-    #gridContainerDesktop{
         display:grid;
+        justify-content: center;
+        justify-items: center;
         width: 90%;
         height: 90%;
-        grid-template-columns: repeat(4, 25%);
+        grid-template-columns: repeat(4, 250px);
         grid-template-rows: repeat(2, 50%);
         padding: 3%;
-        gap:5%;
+        column-gap: 50px;
     }
+
+    .albumContainer{
+        width: 100%;
+        text-align: center;
+        display:flex;
+        font-family: 'Sancreek', serif; 
+        font-size: 1vmax;
+        color: white;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
     .albumPhoto{
         align-self: center;
         height: 32vh;
         border-radius: 10px;
-        width: 200px;
+        width: 100%;
     }
 }

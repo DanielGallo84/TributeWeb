@@ -21,7 +21,7 @@ export function loadHeader() {
   </div>
 
   <div class="links-container-desktop">
-    <a href="#">
+    <a href="/pages/gallery/index.html">
       <button class="nav-links-desktop">Gallery</button>
     </a>
     <a href="#">
